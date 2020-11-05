@@ -1,3 +1,39 @@
-ú"YGG§•á¡ÒmR1²}íåİş•tv{Ùpv–Õ¡ºÖe{ŒsØ;æÓ|©ÛöpJ›üH,9y¤³¸*J¿{nW÷À
-a\k˜”£‚‘Cáå<Xu‰«Í.Ïù"aøåV`)Ü¿¨Ú}aT§ä`dÇ”,ÙÒ›wZJß¦`D…‹[2Z·şG·a™ƒ7Å«ÆåµÀÈù\ÕÜä…£`ÄÎ›çŞ&jÀ}‡"(»ä‹âp`2ŞÉ<HšLs±Ç¸Æ#weŠ¸¹ºUåT8+}Tùg!óŞOkíæ@í[‚†><+'"­Èhzê$Å¯¬ÄX‰\à¬MˆÊõ:åïãâ¿_PÏÎœn{"ÙşuÏNj>0V0ò6\ü.0cV*úÈ«·]âô€6¯ñŞé¯È?/}ÁIúVb9+ş
-0ìo!ë±±uÇãğ
+ï»¿using BigMammaUML3;
+
+public interface IMenuItem {
+	int Number {
+		get;
+	}
+
+	string Name {
+		get;
+		set;
+	}
+
+	string Description {
+		get;
+		set;
+	}
+
+	double Price {
+		get;
+		set;
+	}
+
+	MenuType Type {
+		get;
+		set;
+	}
+
+	bool IsVegan {
+		get;
+		set;
+	}
+
+	bool IsOrganic {
+		get;
+		set;
+	}
+
+	string PrintInfo();
+}
